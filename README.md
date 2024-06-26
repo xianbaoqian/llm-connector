@@ -26,6 +26,12 @@ To get started with LLM Connector, first install the necessary packages:
 pip install fastapi uvicorn httpx
 ```
 
+## Usage
+
+```bash
+python proxy_server.py --target <target-service-url-default-to-openai>
+```
+
 ## Examples
 - Forwarding a Chatbot Request
 Imagine you're developing a chatbot that needs to process natural language using OpenAI's API. With LLM Connector, you can route user messages through your proxy server to OpenAI seamlessly:
